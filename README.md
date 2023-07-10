@@ -19,7 +19,7 @@ To test for the number of petrie-complete graphs with n vertices, use the follow
 ```
 ## Example Usage
 ```
-> /plantri 16 | ./A122660
-17490241 triangulations written to stdout; cpu=10.25 sec
-5843386 petrie-complete graphs found in 28.6445s
+> /plantri 17 | ./A122660
+129664753 triangulations written to stdout; cpu=73.91 sec
+41036436 petrie-complete graphs found in 218.953s
 ```
