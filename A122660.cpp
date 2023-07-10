@@ -10,7 +10,8 @@ using std::chrono::milliseconds;
 using std::unordered_map;
 
 const int mask = M - 1;
-int c[M], cc[M], cnt, n;
+unsigned long long cnt;
+int c[M], cc[M], n;
 
 template <typename T>
 constexpr T getbyte() {
@@ -24,7 +25,6 @@ int main() {
   std::ios::sync_with_stdio(0);
   std::cout.tie(0);
   std::cin.ignore(15);
-  cnt = 0;
   while (n = getbyte<int>()) {
     int firstEdge;
     for (int i = 0; i < n; ++i) {
