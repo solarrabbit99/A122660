@@ -2,7 +2,7 @@
 Simple and fast cpp program that generates integer sequence [A122660](https://oeis.org/A122660).
 
 ## Plantri
-Plantri and a program developed to enumerate triangulations of planar graphs. Its source code can be downloaded and compiled [here](https://users.cecs.anu.edu.au/~bdm/plantri/). For our purpose, I included only the `plantri.c` file. You may compile the program similar to the following:
+Plantri is a program developed to enumerate triangulations of planar graphs. Its source code can be downloaded and compiled [here](https://users.cecs.anu.edu.au/~bdm/plantri/). For our purpose, I included only the `plantri.c` file. You may compile the program similar to the following:
 ```
 > gcc plantri.c -o plantri
 ```
