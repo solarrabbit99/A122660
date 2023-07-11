@@ -4,9 +4,7 @@
 #define M (1 << 16)
 
 using std::chrono::high_resolution_clock;
-using std::chrono::duration_cast;
 using std::chrono::duration;
-using std::chrono::milliseconds;
 using std::unordered_map;
 
 const int mask = M - 1;
